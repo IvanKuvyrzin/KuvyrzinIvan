@@ -1,55 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <body>
-  <P ALIGN=CENTER>
-  <FONT SIZE="6"><B><FONT COLOR="00000"> Пятница </B></FONT><BR>
-  <TABLE height="100" width="40%">
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>таблица</title>
+</head>
+
+<body>
+
+<table style="
+margin: 20px auto;
+	width: 100%;
+	max-width: 1000px;">
 <tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 1-2 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> ОАИП </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Солдатова С.И.) </B></FONT><BR></td>
-</tr>
- <tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 3-4 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> ИТ </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Раданцева О.В./Солдатова С.И.) </B></FONT><BR></td>
- </tr>
-<tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 5-6 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> История </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Егошина М.В.) </B></FONT><BR></td>
-</tr>
- <tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 7-8 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> ЭВМ </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Низаметдинова Т.И.) </B></FONT><BR></td>
- </tr>
-</TABLE>
-</TABLE>
- </P>
-  <P ALIGN=CENTER>
-  <FONT SIZE="6"><B><FONT COLOR="00000"> Пятница </B></FONT><BR>
-  <TABLE height="100" width="40%">
-<tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 1-2 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> ОАИП </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Солдатова С.И.) </B></FONT><BR></td>
-</tr>
- <tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 3-4 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> ИТ </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Раданцева О.В./Солдатова С.И.) </B></FONT><BR></td>
- </tr>
-<tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 5-6 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> История </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Егошина М.В.) </B></FONT><BR></td>
-</tr>
- <tr>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> 7-8 </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> ЭВМ </B></FONT><BR></td>
-  <td><FONT SIZE="5"><B><FONT COLOR="00000"> (Низаметдинова Т.И.) </B></FONT><BR></td>
- </tr>
-</TABLE>
+     <th>ПОНЕДЕЛЬНИК</th>
+     <th>ВТОРНИК</th>
+     <th>СРЕДА</th>
+	 <th>ЧЕТВЕРГ</th>
+	 <th>ПЯТНИЦА</th>
+	</tr>
+  <tr class="bg-grey">
+     <td>1-2 Классный час</td>
+     <td>1-2 Операц. системы</td>
+	 <td> - </td>
+	 <td>1-2 МДК02.01 ТРПО</td>
+	 <td>1-2 ОАиП</td>
+	</tr>
+  <tr class="bg-grey">
+     <td>3-4 МДК02.01 ТРПО</td>
+     <td>3-4 ОПБД</td>
+	 <td> - </td>
+	 <td>3-4 Операц. системы</td>
+	 <td>3-4 ИТ </td>
+	</tr>
+	  <tr class="bg-grey">
+     <td>5-6 ОАиП</td>
+     <td>5-6 ЭВМ</td>
+	 <td>5-6 Физич. культура</td>
+	 <td>5-6 ОАиП</td>
+	 <td>5-6 История</td>
+	</tr>
+	  <tr class="bg-grey">
+     <td>7-8 Ин. язык</td>
+     <td>7-8 Русский язык</td>
+	 <td>7-8 МДК02.01 ТРПО</td>
+	 <td> - </td>
+	 <td>7-8 ЭВМ </td>
+	</tr>
+	  <tr class="bg-grey">
+     <td>9-10 ЭВМ</td>
+     <td> - </td>
+	 <td>9-10 ОПБД</td>
+	 <td> - </td>
+	 <td> - </td>
+	</tr>
+</table>
 </body>
-</html>
